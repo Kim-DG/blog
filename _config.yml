@@ -74,7 +74,7 @@ collections:
 defaults:
   -
     scope:
-      path: ""
+      path: "Develop"
       type: "posts"
     values:
       layout: post # Set the default layout for posts
