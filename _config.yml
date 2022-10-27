@@ -66,7 +66,7 @@ collections:
     output: true
     description: "My thoughts and ideas"
     feature_text: |
-      Music!
+      Music
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 

@@ -1,6 +1,10 @@
 - page.xxx ---로 쌓인 부분 / site.xxx config 파일 변수
 
 
-1. 메인 화면 글 변경 -
-    index.md
-2. 
+1. 메인 화면 글 변경
+    - index.md
+2. 메뉴 추가 -
+    - 메뉴.md 추가
+    - 메뉴 폴더생성 > posts 폴더 생성
+    - _layout에 메뉴.html 추가
+    
