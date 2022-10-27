@@ -1,14 +1,13 @@
 {% if paginator.posts %}
   <section class="section  typeset">
     <ul class="list  list--posts">
-      {% for post in paginator.posts %}
-        
+      {% for page in paginator.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
 
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ post.feature_text }}</a></h2>
+            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}{{ page.categories }}</a></h2>
             {% include post-meta.html %}
-            {{ post.excerpt | markdownify | truncatewords: 60 }}
+            {{ page.excerpt | markdownify | truncatewords: 60 }}
 
           </article>
         </li>
@@ -19,13 +18,13 @@
 {% else %}
   <section class="section  typeset">
     <ul class="list  list--posts">
-      {% for post in site.posts %}
+      {% for page in site.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
 
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
             {% include post-meta.html %}
-            {{ post.excerpt | markdownify | truncatewords: 60 }}
+            {{ page.excerpt | markdownify | truncatewords: 60 }}
 
           </article>
         </li>
