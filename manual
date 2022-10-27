@@ -7,4 +7,5 @@
     - 메뉴.md 추가
     - 메뉴 폴더생성 > posts 폴더 생성
     - _layout에 메뉴.html 추가
+    - _config파일 collection 항목 추가
     
