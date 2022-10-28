@@ -31,7 +31,7 @@ logo: "/assets/logos/logo@32px.png"
 # Pagination
 paginate: 5
 paginate_path: blog/page:num
-
+ 
 # Header nav
 navigation_header:
 - title: Home
