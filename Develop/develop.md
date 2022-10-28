@@ -1,5 +1,5 @@
 ---
-layout: Develop 
+layout: develop 
 collectionpage: posts
 title: Develop
 ---
