@@ -1,5 +1,5 @@
 ---
-layout: music
+layout: Music
 collectionpage: mu_posts
 title: Music
 ---
