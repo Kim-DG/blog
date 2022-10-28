@@ -80,6 +80,12 @@ defaults:
       layout: post # Set the default layout for posts
   -
     scope:
+      path: "Music"
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
       path: ""
       type: "pages"
     values:
