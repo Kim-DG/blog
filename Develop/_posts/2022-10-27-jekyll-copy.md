@@ -2,8 +2,7 @@
 title: jekyll과 github page를 이용해 블로그 만들기
 categories:
 - Jekyll
-excerpt: |
-  A pot still is a type of still used in distilling spirits such as whisky or brandy. Heat is applied directly to the pot containing the wash (for whisky) or wine (for brandy).
+excerpt:
 feature_text: |
   ## The Pot Still
   The modern pot still is a descendant of the alembic, an earlier distillation device
