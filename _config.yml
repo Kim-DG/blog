@@ -40,8 +40,14 @@ navigation_header:
   url: /about/
 - title: Develop
   url: /develop/
-- title: Music
-  url: /music/
+- title: Project
+  url: /project/
+- title: Android
+  url: /android/
+- title: CS
+  url: /cs/
+- title: Life
+  url: /life/
 - title: Categories
   url: /categories/
 - title: Search
@@ -57,24 +63,46 @@ collections:
   posts:
     title: Develop Posts
     output: true
-    description: "develop My thoughts and ideas"
+    description: "develop"
     feature_text: |
       Develop
     feature_image: "https://picsum.photos/2560/600?image=866"
-  mu_posts:
-    title: Music Posts
+  project_posts:
+    title: Project Posts
     output: true
-    description: "music My thoughts and ideas"
+    description: "project"
     feature_text: |
-      Music
+      Project
     feature_image: "https://picsum.photos/2560/600?image=866"
+  android_posts:
+    title: Android Posts
+    output: true
+    description: "android"
+    feature_text: |
+      Android
+    feature_image: "https://picsum.photos/2560/600?image=866"
+  cs_posts:
+    title: CS Posts
+    output: true
+    description: "cs"
+    feature_text: |
+      CS
+    feature_image: "https://picsum.photos/2560/600?image=866"
+  life_posts:
+    title: Life Posts
+    output: true
+    description: "life"
+    feature_text: |
+      Life
+    feature_image: "https://picsum.photos/2560/600?image=866"
+    
 
 
 # Collection settings
 defaults:
   -
     scope:
-      path: "Develop"
+      path: ""
       type: "posts"
     values:
       layout: post # Set the default layout for posts
