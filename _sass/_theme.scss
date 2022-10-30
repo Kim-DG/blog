@@ -48,9 +48,11 @@ body {
   margin-bottom: 1.6rem;
   text-align: center;
   background: $featureBackgroundColour;
+  color: $backgroundColour;
   background-size: cover;
   background-position: center;
   .container {
+    color: $backgroundColour;
     min-height: 35vh;
     max-width: 60%;
     @include flex-direction(column);
@@ -86,7 +88,7 @@ body {
 }
 
 .footer {
-  background: $headingColour;
+  background: $footerColour;
   color: $captionColour;
   a {
     color: $captionColour;
