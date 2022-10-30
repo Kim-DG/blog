@@ -23,6 +23,6 @@ Jekyll과 github page를 이용해 블로그를 만드는 방법에 대한 포�
 
 ###### <span style="color:red">※ 저는 2.7.3 버전을 설치했습니다.</span>
 
-![Alt text]("/postData/jekyll/ruby_installer2.png")
+![Alt text]("/assets/img/ruby_installer2.png")
 ### 2. Jekyll 설치
 
